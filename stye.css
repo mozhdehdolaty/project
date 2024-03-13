@@ -1,0 +1,91 @@
+body{
+ background-color: palevioletred;
+ margin: 0px;
+ padding: 0px;}
+
+
+header{background-color:pink;
+ display: flex;
+ justify-content: center;
+ padding: 20px; }
+
+
+ul,a{list-style: none;
+margin: 0px;padding: 0px;
+color: white;
+text-decoration: none;}  
+
+
+nav ul li a {font-size: 18px;
+ padding: 5px 10px;
+ border-radius: 4px;
+transition: color 0.5s;}
+
+
+nav ul li  :hover{background-color: palevioletred; }
+h1{ color: white;
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+img{
+width:800px ;
+height: 600px; display:flex;
+justify-content: center;
+ margin-left: 400px;
+}
+
+p{font-size: 20px;
+color: white;
+display: flex;
+ justify-content: center;}  
+
+.container{display: flex;
+justify-content:center;
+gap:20px;
+flex-wrap: wrap;}
+
+.poster img{border-radius: 1px;
+ width: 200px;
+height: 200px;
+margin: auto;border: solid;
+border-color: white;
+box-sizing: content-box;}
+
+.poster img:hover{ border-radius: 1px;
+ transform: scale(1.25);
+ transition: transform 0.5;} 
+i{ color: white;
+ display: flex;
+justify-content: center;
+bottom: 10px;}
+.poster span{ font-size: 2ch;
+     position: absolute; }
+ footer{ background-color:white;
+ bottom: 0px;
+height: 40px;} 
+ footer p{font-size: 16px;
+     color: palevioletred;
+     padding: 10px;}
+iframe{display: flex;
+ height: 1000px;
+ width: 1000px;
+ margin-left: 250px;}
+.play-button{color:palevioletred;}
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.pagination a{
+    border: solid;
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.pagination a :hover{
+    background-color: palevioletred;   
+}
