@@ -87,7 +87,8 @@ iframe{display: flex;
     transition: 0.5s;
 }
 .pagination a :hover{
-    background-color: palevioletred;   
+    background-color: palevioletred;
+ margin-top:10px;
 }
 
 .poster{
@@ -103,7 +104,7 @@ iframe{display: flex;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3rem;
-    color: #c60e0e;
+    color: white;
     padding-left: 10px;
     border-radius: 100%;
     cursor: pointer;
