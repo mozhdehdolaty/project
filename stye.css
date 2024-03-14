@@ -61,12 +61,8 @@ justify-content: center;
 bottom: 10px;}
 .poster span{ font-size: 2ch;
      position: absolute; }
- footer{ background-color:white;
- bottom: 0px;
-height: 40px;} 
- footer p{font-size: 16px;
-     color: palevioletred;
-     padding: 10px;}
+ 
+ 
 iframe{display: flex;
  height: 1000px;
  width: 1000px;
@@ -112,4 +108,13 @@ iframe{display: flex;
 
 .poster:hover .play-icon {
     opacity: 1; /* Visible on hover */
+}
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
