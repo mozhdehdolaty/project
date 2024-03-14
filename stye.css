@@ -89,3 +89,31 @@ iframe{display: flex;
 .pagination a :hover{
     background-color: palevioletred;   
 }
+
+.poster{
+   background-color: #3e3e3e;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    padding: 10px;
+    margin: 50px;
+}
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #c60e0e;
+    padding-left: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    opacity: 0; /* Default state for play icons */
+}
+
+.poster:hover .play-icon {
+    opacity: 1; /* Visible on hover */
+}
