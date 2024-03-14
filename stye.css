@@ -76,6 +76,7 @@ iframe{display: flex;
     display: flex;
     justify-content: center;
     gap: 5px;
+ margin-top: 10px
 }
 .pagination a{
     border: solid;
@@ -84,12 +85,9 @@ iframe{display: flex;
     text-decoration: none;
     padding: 8px 15px;
     display: inline-block;
-    transition: 0.5s;
 }
-.pagination a :hover{
-    background-color: palevioletred;
- margin-top:10px;
-}
+
+
 
 .poster{
  
