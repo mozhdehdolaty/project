@@ -72,7 +72,7 @@ iframe{display: flex;
     display: flex;
     justify-content: center;
     gap: 5px;
- margin-top: 20px
+ margin-top: 20px;
 }
 .pagination a{
     border: solid;
@@ -117,5 +117,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
- margin-top:40px
+ margin-top:40px;
 }
