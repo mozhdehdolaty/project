@@ -67,7 +67,7 @@ iframe{display: flex;
  height: 1000px;
  width: 1000px;
  margin-left: 250px;}
-.play-button{color:palevioletred;}
+.play-button{color:palevioletred; margin-bottom:40px}
 .pagination{
     display: flex;
     justify-content: center;
@@ -82,8 +82,6 @@ iframe{display: flex;
     padding: 8px 15px;
     display: inline-block;
 }
-.play-button{
- margin-bottom:20px
 
 
 .poster{
@@ -118,5 +116,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
- margin-top:40px;
 }
