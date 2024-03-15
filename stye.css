@@ -59,8 +59,11 @@ i{ color: white;
  display: flex;
 justify-content: center;
 bottom: 10px;}
-.poster span{ font-size: 2ch;
-     position: absolute; margin-bottom:20px }
+.poster span{ 
+ font-size: 2ch;
+  position: absolute;
+   margin-bottom:20px;
+    }
  
  
 iframe{display: flex;
