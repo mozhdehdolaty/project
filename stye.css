@@ -60,7 +60,7 @@ i{ color: white;
 justify-content: center;
 bottom: 10px;}
 .poster span{ font-size: 2ch;
-     position: absolute; }
+     position: absolute; margin-bottom:20px }
  
  
 iframe{display: flex;
